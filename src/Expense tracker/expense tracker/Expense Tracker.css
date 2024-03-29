@@ -1,0 +1,167 @@
+#transaction-form input{
+    height: 37px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-inline: 6px;
+    width: 371px;
+}
+
+
+
+body{
+    background-color: #f7f7f7;
+}
+
+
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    min-height: 640px;
+    margin: 0 auto;
+};
+
+*{
+    text-align: center;
+}
+
+h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#body h1{
+    color: black ;
+}
+
+h3{
+
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+h2{
+
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+#balancebox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#currencybox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0px 0px 5px -1px;
+    width: 380px;
+    padding-block: 15px;
+    margin-block: 15px;
+}
+
+#curency{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.crncy{
+    border-right: 1px solid grey;
+}
+
+.title{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+}
+.digits{
+    font-size: x-large;
+}
+
+.inc{
+    color: #b6960a;
+}
+.exp{
+    color: #2da3ad;
+}
+
+
+.transactionhistory{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.new{
+    letter-spacing: -1px;
+}
+
+
+#bottom{
+  align-self: flex-start;
+  padding: 15px;
+}
+.Desktrans{
+    font-size: 1.2rem;
+    font-weight: 700;
+};
+
+#inputs{
+   
+}
+
+#button{
+    margin-top: 10px;
+    width: 370px;
+    padding: 4px;
+    background-color: #b0c4de;
+    font-size: 17px;
+    font-weight: 500;
+    border-color:  #b0c4de;
+    color: white;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+    width: 364px;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 5px solid #b6960a;
+    background-color: white;
+    box-shadow: 0px 0px 5px -2px;
+ 
+}
+li:hover{
+    background-color: #b6960a;
+    color: #f7f7f7;
+}
+
+ol{
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+}
+
+#x{
+    padding: 4px 8px;
+    color: white;
+    background-color: grey;
+}
+
+
+
